@@ -14,7 +14,7 @@ class StoreController extends Controller
     public function view(){
         return Store::store();
     }
-    //
+    //test
 
     public function viewStoreMenu(){
         $storesData = Store::store();
